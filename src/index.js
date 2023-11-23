@@ -17,9 +17,9 @@ connectDB()
     console.error("MOngo db connection failed:", error);
     throw error;
   });
-// import express from "express";
+import express from "express";
 // const app = express();
-// (async () => {
+// (async () => {s
 //   try {
 //     mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`);
 //     app.on("error", (error) => {
