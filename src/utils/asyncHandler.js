@@ -3,7 +3,6 @@ const asyncHandler = (requestHandler) => {
     Promise.resolve(requestHandler(req, res, next)).catch((err) => next(err));
   };
 };
+//No need to add promises for the controllers
 
 export { asyncHandler };
-
-
